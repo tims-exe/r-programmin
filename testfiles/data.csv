@@ -1,0 +1,11 @@
+TransactionID,CustomerName,Amount,Date,Company,AverageMileage
+1,Alice,100.0,2024-01-10,Toyota,25.0
+2,Bob,250.0,2024-02-15,Ford,20.0
+3,Charlie,,2024-03-20,Tesla,30.0
+4,David,400.0,2024-04-10,BMW,
+5,Eve,150.0,2024-05-05,Honda,22.0
+6,Frank,,2024-06-18,Tesla,18.0
+7,Grace,350.0,2024-07-22,Ford,21.0
+8,Hannah,200.0,2024-08-30,BMW,27.0
+9,Ian,180.0,2024-09-12,Toyota,24.0
+10,Jack,500.0,2024-10-05,Honda,
