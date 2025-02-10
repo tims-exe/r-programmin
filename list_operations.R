@@ -1,0 +1,1 @@
+test <- list(name = "john", age = "23", scores = c(80, 90, 100)) 
