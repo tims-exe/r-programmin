@@ -15,3 +15,31 @@ str(df)
 
 
 df[df$Age > 25, ]
+
+
+df <- data.frame(A = c(10, 20, NA, 40), B = c(5, NA, 15, 20))
+print(impute_missing(df))
+
+
+for (col in names(df)){
+  if (is.numeric(df[[col]])){
+    df[[col]][is.na(df[[col]] <- mean(df[[col]], na.rm = TRUE)
+  }
+}
+
+df
+
+
+impute_missing <- function(df) {
+  for (col in names(df)) {
+    if (is.numeric(df[[col]])) {
+      df[[col]][is.na(df[[col]])] <- mean(df[[col]], na.rm = TRUE)
+    }
+  }
+  return(df)
+}
+
+# Example usage
+df <- data.frame(A = c(10, 20, NA, 40), B = c(5, NA, 15, 20))
+print(impute_missing(df))
+
